@@ -6,6 +6,7 @@
     "init:node_modules": "lerna bootstrap --hoist",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "build": "lerna run build",
+    "publish": "lerna publish",
     "publish:canary": "lerna publish --canary",
     "test": "jest --passWithNoTests",
     "test:watch": "jest --watch",
@@ -20,8 +21,8 @@
     "access": "public"
   },
   "devDependencies": {
-    "@augejs/koa": "file://../standard-modules/packages/koa",
-    "@augejs/module-core": "file://../module-core",
+    "@augejs/koa": "^1.0.1-rc.5",
+    "@augejs/module-core": "^1.0.1-rc.3",
     "@commitlint/cli": "^9.1.2",
     "@commitlint/config-conventional": "^11.0.0",
     "@types/node": "^14.6.4",

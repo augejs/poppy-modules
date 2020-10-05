@@ -14,10 +14,9 @@
     "access": "public"
   },
   "devDependencies": {
-    "rimraf": "^3.0.2",
-    "@types/ioredis": "^4.17.4",
-    "@augejs/i18n": "file://../../../standard-modules/packages/i18n",
-    "@augejs/redis": "file://../../../standard-modules/packages/redis"
+    "@augejs/i18n": "^1.0.1-rc.5",
+    "@augejs/redis": "^1.0.1-rc.5",
+    "rimraf": "^3.0.2"
   },
   "dependencies": {
     "ms": "^2.1.2",
