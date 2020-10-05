@@ -1,6 +1,6 @@
 {
   "name": "@augejs/poppy-token",
-  "version": "1.0.1-rc.1",
+  "version": "0.0.4",
   "description": "",
   "main": "./dist/main.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "rimraf": "^3.0.2"
   },
   "dependencies": {
-    "ms": "^2.1.2",
-    "@types/ms": "^0.7.31"
+    "@types/ms": "^0.7.31",
+    "ms": "^2.1.2"
   }
 }
