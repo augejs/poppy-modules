@@ -1,6 +1,6 @@
 {
   "name": "@augejs/poppy-token",
-  "version": "1.0.1-rc.1",
+  "version": "0.0.4",
   "description": "",
   "main": "./dist/main.js",
   "scripts": {
@@ -8,18 +8,29 @@
     "build": "tsc --build ./tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/augejs/poppy-modules.git"
+  },
   "author": "Alex.Zhang",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/augejs/poppy-modules/issues"
+  },
+  "homepage": "https://augejs.github.io/docs/Techniques-Poppy-Token",
   "publishConfig": {
     "access": "public"
   },
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@augejs/i18n": "^1.0.1-rc.5",
     "@augejs/redis": "^1.0.1-rc.5",
     "rimraf": "^3.0.2"
   },
   "dependencies": {
-    "ms": "^2.1.2",
-    "@types/ms": "^0.7.31"
+    "@types/ms": "^0.7.31",
+    "ms": "^2.1.2"
   }
 }
