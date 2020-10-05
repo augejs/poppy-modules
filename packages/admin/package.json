@@ -1,6 +1,6 @@
 {
   "name": "@augejs/poppy-admin",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "",
   "main": "./dist/main.js",
   "scripts": {
@@ -28,6 +28,7 @@
     "rimraf": "^3.0.2"
   },
   "dependencies": {
+    "@augejs/redis": "^1.0.1-rc.5",
     "@types/js-yaml": "^3.12.5",
     "@types/speakeasy": "^2.0.5",
     "dotenv": "^8.2.0",

@@ -1,1 +1,1 @@
-export * from './decorators';
+export * from './admin.module';
