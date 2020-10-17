@@ -21,8 +21,6 @@
     "access": "public"
   },
   "devDependencies": {
-    "@augejs/koa": "^1.0.1-rc.5",
-    "@augejs/module-core": "^1.0.1-rc.3",
     "@commitlint/cli": "^9.1.2",
     "@commitlint/config-conventional": "^11.0.0",
     "@types/node": "^14.6.4",
@@ -40,7 +38,10 @@
     "tslib": "^2.0.1",
     "typescript": "^4.0.2"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@augejs/koa": "^1.0.1-rc.6",
+    "@augejs/module-core": "^1.0.1-rc.6"
+  },
   "husky": {
     "hooks": {
       "pre-push": "npm test",
